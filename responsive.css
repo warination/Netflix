@@ -190,3 +190,22 @@
         top: 450px;
     }
 }
+
+
+@media (max-width: 400px){
+    .netflix-card{
+        width: 100px;
+    }
+
+    .slider1{
+        top: 190px;
+    }
+
+    .slider2{
+        top: 290px;
+    }
+
+    .slider3{
+        top: 390px;
+    }
+}
