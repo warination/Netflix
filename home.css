@@ -205,3 +205,10 @@ i:hover{
     z-index: 300;
     margin-left: 0%;
 }
+
+
+
+.carousel-item{
+    overflow-x: clip;
+
+} 
