@@ -212,3 +212,30 @@ i:hover{
     overflow-x: clip;
 
 } 
+
+
+/* footer */
+
+.footer{
+    background-color: #141414;
+    position: relative;
+    top: 90px;
+    margin-top: 10px;
+
+}
+
+.footer ul{
+    position: relative;
+    list-style: none;
+    border-bottom: 1px solid rgba(17, 16, 16, 0.473);
+}
+
+.footer ul li{
+    font-size: 15px ;
+    color: rgba(139, 135, 135, 0.658);
+    margin: 5px;
+}
+
+.footer ul li:hover{
+    color: white;
+}
