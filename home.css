@@ -4,6 +4,55 @@ body {
     position: relative;
 }
 
+#coupan-container{
+    width: 600px;
+    height: 532px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background-color: red;
+    z-index: 10000;
+    visibility: hidden;
+}
+
+#coupan-container img{
+    width: 100%;
+}
+#coupan-container h1{
+    color: #fff;
+    font-size: 46px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#coupan-container p{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#coupan-container a{
+    color: #fff;
+    font-size: 26px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    display: block;
+    text-align: center;
+}
+
+#coupan-container button{
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
 .netflix-padding-left {
     padding-left: 57px;
 }
