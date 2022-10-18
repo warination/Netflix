@@ -3,13 +3,22 @@ body {
     overflow-x: hidden;
     position: relative;
 }
+.lighttext{
+    color: white;
+}
+
+.light .lighttext {
+    color: #141414;
+}
+.light{
+    background-color: white;
+}
 
 #coupan-container{
-    width: 600px;
-    height: 532px;
+    width: 40%;
     position: absolute;
     top: 20%;
-    left: 35%;
+    left: 25%;
     background-color: red;
     z-index: 10000;
     visibility: hidden;
@@ -50,7 +59,9 @@ body {
 }
 
 
-
+.darkIcon{
+    width: 20px;
+}
 
 
 .netflix-padding-left {
@@ -67,6 +78,10 @@ body {
     width: 100vw;
     z-index: 1000;
 
+}
+
+.light .netflix-nav {
+    background-color: rgba(255, 255, 255, 0.521);
 }
 
 .netflix-row {
@@ -92,6 +107,9 @@ body {
     font-size: 12px;
 }
 
+.light .netflix-dropdrown{
+    color: #141414;
+}
 .netflix-dropdrown-menu {
     background-color: rgba(0, 0, 0, 0.685);
     font-size: 15px;
@@ -99,6 +117,12 @@ body {
     margin-left: -80px;
     border-top: 3px solid white;
     margin-top: 30px;
+}
+
+
+.light .netflix-dropdrown-menu{
+    background-color: white;
+    color: #141414;
 }
 
 .netflix-dropdrown-item{
@@ -109,8 +133,16 @@ body {
     font-size: 15px;
 }
 
+.light .netflix-dropdrown-item{
+    color: #141414;
+}
+
 .netflix-dropdrown-item:hover{
     background-color: rgba(255, 255, 255, 0.349);
+}
+
+.light .netflix-dropdrown-item:hover{
+    background-color: rgba(236, 222, 222, 0.575);
 }
 
 .netflix-desktop-nav{
@@ -127,8 +159,17 @@ body {
     font-size: 15px;
     
 }
+
+.light .netflix-desktop-nav button{
+    color: #141414;
+}
+
 .netflix-desktop-nav button:hover{
     color: white;
+}
+
+.light .netflix-desktop-nav button:hover{
+    color: #14131398;
 }
 
 i{
@@ -138,10 +179,17 @@ i{
     padding: 5px 10px;
 }
 
+.light i{
+    color: #141414;
+}
+
 i:hover{
     color: white;
 }
 
+.light i:hover{
+    color: #050404a4;
+}
 /* video */
 
 .netflix-home-video{
@@ -273,6 +321,15 @@ i:hover{
 
 }
 
+.light .footer{
+    background-color: white;
+    color: #141414;
+}
+
+.light .footer ul{
+    border-bottom: none;
+}
+
 .footer ul{
     position: relative;
     list-style: none;
@@ -285,6 +342,13 @@ i:hover{
     margin: 5px;
 }
 
+.light .footer ul li{
+    color: #141414;
+}
 .footer ul li:hover{
     color: white;
+}
+
+.light .footer ul li:hover{
+    color: #14131398;
 }
